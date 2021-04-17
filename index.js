@@ -10,7 +10,7 @@ const binance = new Binance().options({
 
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setActivity("Crypto", { type: "Crypto" });
+  client.user.setActivity('Crypto DOGE-HELP', { type: 'PLAYING' })
 });
 
 client.on("message", (msg) => {
